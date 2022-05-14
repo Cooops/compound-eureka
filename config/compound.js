@@ -24,7 +24,7 @@ let defaultPk = () =>
   network === 'development' ? { unlocked: 0 }
     : { pk: fs.readFileSync(path.join(os.homedir(), '.ethereum', network), 'utf8') };
 
-let gasPrice = Math.floor(env('gas_price', 1.0) * 1000000000 /* 1 gwei */);
+let gasPrice = Math.floor(env('gas_price', 10.0) * 1000000000 /* 1 gwei */);
 
 provider(env('provider', defaultProvider), {
   sendOpts: {

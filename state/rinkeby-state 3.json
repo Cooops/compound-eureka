@@ -1,0 +1,521 @@
+{
+  "lens": {
+    "contract": "lens",
+    "version": "25fe06d",
+    "properties": [],
+    "address": "0x90E8e156d640eAcf0181BC534Dda913CdeC0bB7d",
+    "definition": "CompoundLens",
+    "deployment": {
+      "block": 10666387,
+      "constructorData": "",
+      "contract": "CompoundLens"
+    }
+  },
+  "Base200bps_Slope2000bps_Jump20000bps_Kink90": {
+    "contract": "Base200bps_Slope2000bps_Jump20000bps_Kink90",
+    "version": "b73e68c",
+    "properties": {
+      "kink": {
+        "type": "number",
+        "base": 9,
+        "exp": 17
+      },
+      "jump": {
+        "type": "number",
+        "base": 20000,
+        "exp": 14
+      },
+      "slope": {
+        "type": "number",
+        "base": 2000,
+        "exp": 14
+      },
+      "base": {
+        "type": "number",
+        "base": 200,
+        "exp": 14
+      },
+      "type": "jump"
+    },
+    "address": "0x5A8b403ED86Ec80c6f23D4c33992B3AD9Da0F8D6",
+    "definition": "InterestRateModel",
+    "deployment": {
+      "block": 10666391,
+      "constructorData": "00000000000000000000000000000000000000000000000000470de4df82000000000000000000000000000000000000000000000000000002c68af0bb1400000000000000000000000000000000000000000000000000001bc16d674ec800000000000000000000000000000000000000000000000000000c7d713b49da0000",
+      "contract": "JumpRateModel"
+    }
+  },
+  "Base200bps_Slope3000bps": {
+    "contract": "Base200bps_Slope3000bps",
+    "version": "b73e68c",
+    "properties": {
+      "slope": {
+        "type": "number",
+        "base": 3000,
+        "exp": 14
+      },
+      "base": {
+        "type": "number",
+        "base": 200,
+        "exp": 14
+      },
+      "type": "linear"
+    },
+    "address": "0xadC600780E94db971155F8e7D45cFE2cd1881a51",
+    "definition": "InterestRateModel",
+    "deployment": {
+      "block": 10666395,
+      "constructorData": "00000000000000000000000000000000000000000000000000470de4df8200000000000000000000000000000000000000000000000000000429d069189e0000",
+      "contract": "WhitePaperInterestRateModel"
+    }
+  },
+  "Base500bps_Slope1200bps": {
+    "contract": "Base500bps_Slope1200bps",
+    "version": "b73e68c",
+    "properties": {
+      "slope": {
+        "type": "number",
+        "base": 1200,
+        "exp": 14
+      },
+      "base": {
+        "type": "number",
+        "base": 500,
+        "exp": 14
+      },
+      "type": "linear"
+    },
+    "address": "0x857b26A67dBD03bc4fD1630CA80e3270D003Aa49",
+    "definition": "InterestRateModel",
+    "deployment": {
+      "block": 10666402,
+      "constructorData": "00000000000000000000000000000000000000000000000000b1a2bc2ec5000000000000000000000000000000000000000000000000000001aa535d3d0c0000",
+      "contract": "WhitePaperInterestRateModel"
+    }
+  },
+  "Base200bps_Slope1000bps": {
+    "contract": "Base200bps_Slope1000bps",
+    "version": "b73e68c",
+    "properties": {
+      "slope": {
+        "type": "number",
+        "base": 1000,
+        "exp": 14
+      },
+      "base": {
+        "type": "number",
+        "base": 200,
+        "exp": 14
+      },
+      "type": "linear"
+    },
+    "address": "0xA94c4306b8C9AceE2C40099a68C3822A7bA4465F",
+    "definition": "InterestRateModel",
+    "deployment": {
+      "block": 10666404,
+      "constructorData": "00000000000000000000000000000000000000000000000000470de4df820000000000000000000000000000000000000000000000000000016345785d8a0000",
+      "contract": "WhitePaperInterestRateModel"
+    }
+  },
+  "g2": {
+    "contract": "g2",
+    "version": "25fe06d",
+    "properties": {
+      "generation": "g2"
+    },
+    "address": "0xb278E0a2CabB590dB005F4DAD5f30c8837f56FaF",
+    "definition": "Comptroller",
+    "deployment": {
+      "block": 10666406,
+      "constructorData": "",
+      "contract": "ComptrollerG2"
+    }
+  },
+  "g1": {
+    "contract": "g1",
+    "version": "b73e68c",
+    "properties": {
+      "generation": "g1"
+    },
+    "address": "0x91876Ff008Eca5A2f1c450e753119aF7Cf3e05dA",
+    "definition": "Comptroller",
+    "deployment": {
+      "block": 10666409,
+      "constructorData": "",
+      "contract": "ComptrollerG1"
+    }
+  },
+  "cErc20Delegate": {
+    "contract": "cErc20Delegate",
+    "version": "b73e68c",
+    "properties": [],
+    "address": "0x8b6F7527cF9Ca0d94DEbdec0E3Ea4779DCC17A9B",
+    "definition": "CErc20Delegate",
+    "deployment": {
+      "block": 10666413,
+      "constructorData": "",
+      "contract": "CErc20Delegate"
+    }
+  },
+  "knc": {
+    "contract": "knc",
+    "version": "kyber",
+    "properties": {
+      "type": "knc",
+      "name": "Kyber Network Crystal",
+      "symbol": "KNC",
+      "decimals": {
+        "type": "number",
+        "base": "18",
+        "exp": 0
+      },
+      "total_supply": {
+        "type": "number",
+        "base": "210564972417906851272699383",
+        "exp": 0
+      },
+      "sale_start_time": {
+        "type": "number",
+        "base": "1505455200",
+        "exp": 0
+      },
+      "sale_end_time": {
+        "type": "number",
+        "base": "1506232800",
+        "exp": 0
+      }
+    },
+    "address": "0xb3885b701DC9D34C9cD924E7d6Cf392499A7FFE6",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666416,
+      "constructorData": "000000000000000000000000000000000000000000ae2cde06f9590d457fadf70000000000000000000000000000000000000000000000000000000059bb6c600000000000000000000000000000000000000000000000000000000059c749e0000000000000000000000000ae6920c6bf07f60a9e66870952f105ad4ff0a83d",
+      "contract": "KyberNetworkCrystal"
+    }
+  },
+  "link": {
+    "contract": "link",
+    "version": "chainlink",
+    "properties": {
+      "type": "link",
+      "name": "ChainLink Token",
+      "symbol": "LINK",
+      "decimals": {
+        "type": "number",
+        "base": "18",
+        "exp": 0
+      }
+    },
+    "address": "0x53d5F7b3A91971ccEeEAFd65F29ED5a9792B5B19",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666417,
+      "constructorData": "",
+      "contract": "LinkToken"
+    }
+  },
+  "zrx": {
+    "contract": "zrx",
+    "version": "zrx",
+    "properties": {
+      "type": "zrx",
+      "name": "0x Protocol Token",
+      "symbol": "ZRX",
+      "decimals": {
+        "type": "number",
+        "base": "18",
+        "exp": 0
+      }
+    },
+    "address": "0xFF16951e265B26c26A7B5aB52bE7BfFe587b91Dd",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666418,
+      "constructorData": "",
+      "contract": "ZRXToken"
+    }
+  },
+  "wbtc": {
+    "contract": "wbtc",
+    "version": "compound-test",
+    "properties": {
+      "total_supply": {
+        "type": "number",
+        "base": 3851,
+        "exp": 8
+      },
+      "decimals": {
+        "type": "number",
+        "base": 8,
+        "exp": 0
+      },
+      "symbol": "WBTC",
+      "name": "Wrapped BTC"
+    },
+    "address": "0x880Cca79D5AD71e296829B8Acc1300a85d4E682E",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666419,
+      "constructorData": "00000000000000000000000000000000000000000000000000000059a9bfab000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000800000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000000b577261707065642042544300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045742544300000000000000000000000000000000000000000000000000000000",
+      "contract": "FaucetToken"
+    }
+  },
+  "usdt": {
+    "contract": "usdt",
+    "version": "usdt",
+    "properties": {
+      "total_supply": {
+        "type": "number",
+        "base": 5737970410,
+        "exp": 6
+      },
+      "decimals": {
+        "type": "number",
+        "base": 6,
+        "exp": 0
+      },
+      "symbol": "USDT",
+      "name": "Tether",
+      "type": "usdt"
+    },
+    "address": "0x275b8c85F6e051295C1c6d090Ca44Cf2FC0E5d12",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666422,
+      "constructorData": "000000000000000000000000000000000000000000000000001462a758050e80000000000000000000000000000000000000000000000000000000000000008000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000006546574686572000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045553445400000000000000000000000000000000000000000000000000000000",
+      "contract": "TetherToken"
+    }
+  },
+  "usdc": {
+    "contract": "usdc",
+    "version": "compound-test",
+    "properties": {
+      "total_supply": {
+        "type": "number",
+        "base": 732246278,
+        "exp": 6
+      },
+      "decimals": {
+        "type": "number",
+        "base": 6,
+        "exp": 0
+      },
+      "symbol": "USDC",
+      "name": "USD Coin"
+    },
+    "address": "0x638Aa84769f4EbFA3c7056809d2Bdf0d3171086b",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666522,
+      "constructorData": "000000000000000000000000000000000000000000000000000299f95f49cd800000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000000600000000000000000000000000000000000000000000000000000000000000c0000000000000000000000000000000000000000000000000000000000000000855534420436f696e00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000045553444300000000000000000000000000000000000000000000000000000000",
+      "contract": "FaucetToken"
+    }
+  },
+  "sai": {
+    "contract": "sai",
+    "version": "compound-test",
+    "properties": {
+      "total_supply": {
+        "type": "number",
+        "base": 8299054,
+        "exp": 18
+      },
+      "decimals": {
+        "type": "number",
+        "base": 18,
+        "exp": 0
+      },
+      "symbol": "SAI",
+      "name": "Sai"
+    },
+    "address": "0x34458F23b41f97DD0535c349DDB18dEC2E0f1939",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666525,
+      "constructorData": "00000000000000000000000000000000000000000006dd649e6ae76d5bf800000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000003536169000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035341490000000000000000000000000000000000000000000000000000000000",
+      "contract": "FaucetToken"
+    }
+  },
+  "rep": {
+    "contract": "rep",
+    "version": "compound-test",
+    "properties": {
+      "total_supply": {
+        "type": "number",
+        "base": 11000000,
+        "exp": 18
+      },
+      "decimals": {
+        "type": "number",
+        "base": 18,
+        "exp": 0
+      },
+      "symbol": "REP",
+      "name": "Augur"
+    },
+    "address": "0x8b356a81aA4c190d1e321564232a2D47fB28eC22",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666527,
+      "constructorData": "00000000000000000000000000000000000000000009195731e2ce35eb0000000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000005417567757200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000035245500000000000000000000000000000000000000000000000000000000000",
+      "contract": "FaucetToken"
+    }
+  },
+  "dai": {
+    "contract": "dai",
+    "version": "compound-test",
+    "properties": {
+      "total_supply": {
+        "type": "number",
+        "base": 107584313,
+        "exp": 18
+      },
+      "decimals": {
+        "type": "number",
+        "base": 18,
+        "exp": 0
+      },
+      "symbol": "DAI",
+      "name": "Dai"
+    },
+    "address": "0xCB278383930d9490C321761e6e4254E103C936A2",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666529,
+      "constructorData": "00000000000000000000000000000000000000000058fddd4b43745dd14400000000000000000000000000000000000000000000000000000000000000000080000000000000000000000000000000000000000000000000000000000000001200000000000000000000000000000000000000000000000000000000000000c00000000000000000000000000000000000000000000000000000000000000003446169000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000034441490000000000000000000000000000000000000000000000000000000000",
+      "contract": "FaucetToken"
+    }
+  },
+  "bat": {
+    "contract": "bat",
+    "version": "bat",
+    "properties": {
+      "type": "bat",
+      "name": "Basic Attention Token",
+      "symbol": "BAT",
+      "decimals": {
+        "type": "number",
+        "base": "18",
+        "exp": 0
+      }
+    },
+    "address": "0xf0b86741d8F955e616147EC791C20500B8479BC3",
+    "definition": "Erc20",
+    "deployment": {
+      "block": 10666531,
+      "constructorData": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ae6920c6bf07f60a9e66870952f105ad4ff0a83d00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "contract": "BAToken"
+    }
+  },
+  "fauceteer": {
+    "contract": "fauceteer",
+    "version": "compound-test",
+    "properties": [],
+    "address": "0xd87d21B1D778DE7EB283B08e1f077c32C94c6cC4",
+    "definition": "Fauceteer",
+    "deployment": {
+      "block": 10666532,
+      "constructorData": "",
+      "contract": "Fauceteer"
+    }
+  },
+  "oracle": {
+    "contract": "oracle",
+    "version": "b73e68c",
+    "properties": {
+      "prices": {
+        "#bat": {
+          "type": "number",
+          "base": 67126,
+          "exp": 10
+        },
+        "#dai": {
+          "type": "number",
+          "base": 273463137,
+          "exp": 7
+        },
+        "#rep": {
+          "type": "number",
+          "base": 5481120,
+          "exp": 10
+        },
+        "#sai": {
+          "type": "number",
+          "base": 5285551943761727,
+          "exp": 0
+        },
+        "#usdc": {
+          "type": "number",
+          "base": 268860568,
+          "exp": 19
+        },
+        "#usdt": {
+          "type": "number",
+          "base": 268860568,
+          "exp": 19
+        },
+        "#wbtc": {
+          "type": "number",
+          "base": 308928019771,
+          "exp": 18
+        },
+        "#zrx": {
+          "type": "number",
+          "base": 104582,
+          "exp": 10
+        }
+      }
+    },
+    "address": "0x09bCBf1F7De73E8D02daF90793D3eC7A4efF1C96",
+    "definition": "SimplePriceOracle",
+    "deployment": {
+      "block": 10666535,
+      "constructorData": "",
+      "contract": "SimplePriceOracle"
+    }
+  },
+  "comp": {
+    "contract": "comp",
+    "version": "b73e68c",
+    "properties": {
+      "delegates": {
+        "$sender": {
+          "type": "account",
+          "account": "sender"
+        }
+      },
+      "decimals": {
+        "type": "number",
+        "base": 18,
+        "exp": 0
+      },
+      "symbol": "COMP",
+      "name": "Comp"
+    },
+    "address": "0xd10913D231657f1715A9161571F5349004f0f84b",
+    "definition": "Comp",
+    "deployment": {
+      "block": 10666545,
+      "constructorData": "000000000000000000000000ae6920c6bf07f60a9e66870952f105ad4ff0a83d",
+      "contract": "Comp"
+    }
+  },
+  "timelock": {
+    "contract": "timelock",
+    "version": "compound-test",
+    "properties": {
+      "delay": {
+        "type": "number",
+        "base": 60,
+        "exp": 0
+      }
+    },
+    "address": "0x01E1046514BE321ce69BFE1cE0C5f05f6964429d",
+    "definition": "Timelock",
+    "deployment": {
+      "block": 10666549,
+      "constructorData": "000000000000000000000000ae6920c6bf07f60a9e66870952f105ad4ff0a83d000000000000000000000000000000000000000000000000000000000000003c",
+      "contract": "TimelockTest"
+    }
+  }
+}
