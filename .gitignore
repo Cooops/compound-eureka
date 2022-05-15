@@ -3,3 +3,6 @@ node_modules
 networks/development.json
 networks/development-abi.json
 *.DS_Store
+.ethereum/rinkeby
+.ethereum
+.ethereum.rinkeby
